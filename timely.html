@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timely - An AI Enabled Task and Scheduling Software System</title>
+    <link rel="stylesheet" href="timely.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+</head>
+<body>
+    
+    <!-- This is for the pre-navbar -->
+    <header>
+        
+    <div class="pre-wrapper">
+        <div class="sm-div">
+            <small class= "sm-english">
+                <img src="./Images/world-icon.png" height="15" width="15">
+                <select>
+                    <option>English</option>
+                    <option>French</option>
+                    <option>Dutch</option>
+                    <option>Igbo</option>
+                    <option>German</option>
+                    <option>Spanish</option>
+                    <option>Twi</option>
+                </select>
+            </small>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+
+        <div class="logo-box">
+            <a href="./timely.html"><h2 class="h2-logo">
+                <img src="./Images/logo.png" width="70" height="70">
+                Timely
+            </h2></a>
+        </div>   
+        
+        <div class="navlink-box">
+
+            <nav>
+
+                <ul>
+
+                    <!-- Dropdown menu items -->
+                    <li class="dropdown">
+                      <a href="product.html">Products</a>
+                    </li>
+  
+                    <li class="dropdown">
+                        <a href="solutions.html">Solutions</a>
+                        <!-- Dropdown Content for Products -->
+                        <div class="dropdown-content">
+                          <a class="child" href="event.html">By Person</a>
+                          <a class="child" href="event.html">By Team</a>
+                          <a class="child" href="event.html">By Enterprise</a>
+                        </div>
+                    </li>
+  
+                    <li class="dropdown">
+                      <a href="#">Enterprise</a>
+                    </li>
+  
+                    <li class="dropdown">
+                      <a href="#">Pricing</a>
+                    </li>
+  
+                    <li class="dropdown">
+                      <a href="#">Resources</a>
+                    </li>
+  
+                  </ul>      
+
+            </nav>
+    
+        </div>
+
+        <!-- For Login and Register/Get Started -->
+        <div class="login-box">
+
+            <!-- Login link -->
+            <li><a href="#login-container" id="login-link">Login</a></li>
+            
+            <!-- Register/Get Started link -->
+            <li><a href="#register-container" id="register-link"><button>Get Started</button></a></li>
+        </div>
+    </div>
+</header>
+
+        <!-- Login container -->
+        <div class="login-container" id="login-container">
+            <!-- Login section -->
+            <div class="login-section">
+            <form>
+                <h2>Login</h2>
+                <label>Email address</label> <br>
+                <input class="email" type="text"> <br>
+
+                <label>Password</label><br>
+                <input class="password" type="password"> <br>
+
+                <input class="check" type="checkbox" placeholder="checked">
+                <h3>Stay signed in
+                <a href="#"><small class="forgot">Forgot your password</small></a>
+                </h3>
+
+                <button class="login-btn" type="submit"><a href="login.html">Login</a></button><br><br>
+ 
+                <a class="trouble" href="#"><small>Trouble signing in?</small></a> <br><br>
+
+                <small class="or">OR</small><br><br>
+
+                <button class="google-btn">
+                    <img src="./Images/google-icon.png" width="20" height="20">
+                    Continue with Goggle
+                </button>
+
+                <button class="fb-btn">
+                    <img src="./Images/facebook-icon.png" width="21" height="21">
+                    Continue with Facebook
+                </button>
+
+                <button class="apple-btn">
+                    <img src="./Images/apple-icon.png" width="21" height="21">
+                    Continue with Apple
+                </button>
+                <br><br>
+
+                <p class="privacy">
+                    By clicking Continue with Google, Facebook, or Apple,
+                    you agree to Timely's <a href="#">Terms of Use and Privacy Policy.</a><br><br>
+                    Timely may send you communications; you may change your
+                    preferences in your account settings.
+                    We'll never post without your permission.
+                </p>
+            </form>
+            </div>
+        </div>
+        
+        <!-- Register/Get Started container -->
+        <div class="register-container" id="register-container">
+            <!-- Register section -->
+            <div class="register-section">
+            <form>
+                <h2>Create Account</h2>
+                <p>Registration is easy.</p>
+
+                <label>Email*</label>
+                <input class="email" type="text">
+
+                <label>Full Name*</label>
+                <input class="fullname" type="text">
+
+                <label>Password*</label>
+                <input class="password" type="password">
+
+                <p class="privacy1">
+                By clicking Continue with Google, Facebook, or Apple,
+                you agree to Etsy's <a href="#">Terms of Use and Privacy Policy.</a>
+                </p><br>
+
+                <button class="register-btn" type="submit"><a href="register.html">Register</a></button><br><br></a>
+
+                <small class="or">OR</small><br><br>
+
+                <button class="google-btn">
+                    <img src="./Images/google-icon.png" width="22" height="22">
+                    Continue with Google
+                </button>
+
+                <button class="fb-btn">
+                    <img src="./Images/facebook-icon.png" width="22" height="22">
+                    Continue with Facebook
+                </button>
+
+                <button class="apple-btn">
+                    <img src="./Images/apple-icon.png" width="22" height="22">
+                    Continue with Apple
+                </button>
+
+                <p class="privacy2">
+                    Timely may send you communications; you may change your
+                    preferences in your account settings.
+                    We'll never post without your permission.
+                </p>
+
+
+            </form>
+
+            </div>
+
+        </div>
+
+
+        <!-- First Header Writeup-->
+        <div class="intro-container">
+
+            <div class="intro-wrap">
+
+                <h1>Better Tasks and on Time Scheduling</h1>
+
+                <p>Timely is your task and time scheduling 
+                   automation software for eliminating the 
+                   back-and-forth emails to find the best time
+                   — and so much more.</p>
+
+                <button class="google-btn">
+                   <img src="./Images/google-icon.png" width="18" height="18">
+                   Sign up with Google
+                </button>  
+                
+                <button class="windows-btn">
+                    <img src="./Images/microsoft-icon.png" width="18" height="18">
+                    Sign up with Microsoft
+                </button>
+
+                <p class="signup">
+                    Or feel free to <a href="#">sign up with email.</a> No credit card required.
+                </p>
+
+            </div>
+
+          <!-- The side images-->
+            <div class="header-image">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="img4"></div>
+                <div class="img5"></div>
+            </div>
+        </div>
+
+        <!-- The next paragraph and marquee -->
+        <div class="container-1">
+        <p class="p1">
+            Serves as a go to scheduling <b>software</b> for multiple companies worldwide
+        </p>
+
+        <marquee>
+            <img src="./Images/marquee1.PNG">
+            <img src="./Images/marquee2.PNG">
+            <img src="./Images/marquee3.PNG">
+        </marquee>
+
+        <h2 class="h2-one">
+            E F F I C I E N T &nbsp; W A Y &nbsp; T O &nbsp; 
+            S C H E D U L E &nbsp; Y O U R &nbsp; T A S K S &nbsp; <br><br>
+            A N D &nbsp; T I M E S &nbsp; A T &nbsp; A N Y &nbsp; V O L U M E
+        </h2>
+       </div>
+
+        <!-- The First part of the writeup -->
+
+        <div class="writeup-container1">
+            
+            <div class="writeup-img1">
+                <img src="./Images/writeup1.png" height="350" width="600">
+            </div>
+
+            <div class="writeup1">
+                <p>
+                       T I M E L Y &nbsp; U N L O C K S &nbsp; Y O U R &nbsp; T R U E 
+                       &nbsp; P O T E N T I A L
+                </p>
+                    
+                <h2>Elevate Your Task Management Experience to Unprecedented Heights</h2> 
+                   
+                <p class="small-one">Designed with Innovation and Efficiency in Mind,
+                       Timely Empowers You to Seize Control of Your Time and Achieve 
+                       Your Goals like Never Before. 
+                       Say Goodbye to Chaos and Hello to Seamless Productivity with Timely.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- The second part of the writeup -->
+        <div class="writeup-container2">
+
+            <div class="writeup2">
+                <p>
+                    E X P E R I E N C E &nbsp; T H E &nbsp; P O W E R &nbsp; O F 
+                    &nbsp; T I M E L Y
+                </p>
+                    
+                <h2>Our Feature-Rich Platform Offers an Array of Cutting-Edge Tools to
+                    Streamline Your Workflow</h2> 
+                
+                <p class="small-two">From Intuitive Task Management to Intelligent Scheduling Algorithms, 
+                    Timely Puts the Tools of Success Right at Your Fingertips. With Timely, 
+                    You'll Always Stay One Step Ahead of the Game.
+                </p>
+            </div>
+
+            <div class="writeup-img2">
+                <img src="./Images/writeup2.jpg" height="350" width="600">
+            </div>
+
+        </div>
+        
+
+        <!-- The Third part of the writeup -->
+
+        <div class="writeup-container3">
+            
+            <div class="writeup-img3">
+                <img src="./Images/writeup3.jpg" height="350" width="600">
+            </div>
+
+            <div class="writeup3">
+                <p>
+                       T A L I O R &nbsp; S O L U T I O N S &nbsp; F O R &nbsp; 
+                       U N I Q U E &nbsp; N E E D S
+                </p>
+
+                <h2>Timely Understands that Every Business is Different</h2> 
+                   
+                <p class="small-three">Which is Why We Offer a Range of Customization Options
+                    to Suit Your Specific Requirements. Whether You're Managing a Small Team or
+                    a Large Enterprise, Timely Can Be Adapted to Fit Your Workflow Perfectly.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Other important writeups -->
+        <div class="container-2">
+
+            <h2 class="h2-two">
+                Scheduling for entrepreneurs, freelancers, and leaders
+            </h2>  
+
+            <p class="p2">
+                Timely's made for teams of all sizes. <a href="#"> Compare plans &#8594</a>
+            </p>
+        </div>
+
+        <!-- Cards for different plans -->
+        <div class="card-wrapper">
+
+            <div class="card">
+             <div class="card-image image1">
+               <img src="./Images/schedule0.jpg" width="100px" height="95px">
+             </div>   
+               <center><h4>Individual</h4>
+               <p>Whether you need to get a task done or
+                  meet 1:1, Timely makes it happen.</p></center>
+               <a href="#"><button>View Features</button></a>
+             </div>
+     
+            <div class="card">
+             <div class="card-image image2">
+               <img src="./Images/schedule3.jpg" width="100px" height="93px">
+            </div>  
+               <center><h4>Teams</h4>
+               <p>Add teammates to invites and booking pages
+                  and use shared calendars.</p></center>
+                  <a href="#"><button>View Features</button></a>
+            </div>
+     
+            <div class="card">
+             <div class="card-image image3">
+               <img src="./Images/schedule2.jpg" width="100px" height="93px">
+            </div>  
+               <center><h4>Enterprise</h4>
+               <p>Manage your entire organization's scheduling
+                  needs securely and on time.</p></center>
+                  <a href="#"><button>View Features</button></a>
+            </div>
+
+        </div>
+
+        <div class="container-3">
+
+            <h2 class="h2-three">
+                See Timely in action
+            </h2>  
+
+            <p class="p3">
+                Timely is the scheduling automation software with individual, <br>
+                team-based, organizational scheduling, solutions and integrations for every department, <br> 
+                and advanced security features. <br>
+                <a href="#"> Sign up for free</a>
+            </p>
+        </div>
+
+        <!-- Youtube Video Embedding -->
+        <div class="video-wrap">
+            <div class="youtube">
+            <iframe width="715" height="401" src="https://www.youtube.com/embed/QYLYVF3gHz4"
+            title="Timely App Time Tracking Tutorial (Timely Review) | Track your time like 
+            a PRO! (Full Guide)" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!-- Another Writeup -->
+        <div class="container-4">
+
+            <h2 class="h2-four">
+                Built To Keep Your Organization Secure
+            </h2> 
+
+            <div class="organizations">
+                <marquee><img src="./Images/amazon.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/tesla.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/turingtech.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/netflix.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/zoom.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/uber.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/meet.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/outlook.png" height="60" width="60"></marquee>
+                <marquee><img src="./Images/business.png" height="60" width="60"></marquee>
+            </div>
+
+            <p class="p4">
+                Keep your scheduling data secure with enterprise-grade admin management,<br>
+                security integrations, data governance, compliance audits, <br>
+                and privacy protections.<br>
+
+                <a href="#">Learn more</a>
+            </p>
+
+        </div>
+
+        <!-- Another write up -->
+        <div class="container-5">
+            <div class="h2-five">
+                Power up your scheduling
+            </div>
+
+            <div class="p5">
+                Get started with the world's leading 
+                Scheduling Automation Platform in seconds 
+                - for free.
+            </div>
+
+            <div class="btn5">
+                <button class="sign">Sign up for free</button>
+                <button class="demo">Get a demo</button>
+            </div>
+
+        </div>
+
+        <!-- Footer 1-->
+        <div class="footer-container1">
+
+            <div class="easy">
+                <h2>Easy</h2> <h3>ahead</h3> <h5>&trade;</h5>
+                <p>We take the work out of connecting 
+                   with others so you can accomplish more.
+                </p>
+            </div>
+
+            <div class="featured">
+                <button>FEATURED</button>
+                <p><img src="./Images/logo.png" height="70" width="70"></p>
+                <h4>Timely's Annual Report: The State of Scheduling</h4>
+                <p class="p6">
+                    Discover the latest data on the future of 
+                    AI-powered scheduling.
+                </p>
+            </div>
+
+        </div>
+ 
+        <!-- Footer 2 -->
+        <div class="footer-container2">
+
+            <div class="footer-wrap">
+
+                <div class="footer-1">
+                    <h1>Product &#8594</h1>
+                </div>
+
+                <div class="footer1-list">
+
+                    <ul class="footer1-ul">
+                
+                      <li><a href="#">Routing</a><button>New</button></li>
+
+                      <li><a href="#">Avaliability</a><button>Popular</button></li>
+     
+                      <li><a href="#">Team Scheduling</a><button>Popular</button></li>
+
+                      <li><a href="#">Integrations</a></li>
+
+                      <li><a href="#"><b>Teams & Companies &#8594</b></a></li>
+
+                      <li><a href="#"><b>Pricing &#8594</b></a></li>
+     
+                    </ul>
+
+              </div>
+     
+            </div>
+
+           
+            <div class="footer-wrap">
+
+                <div class="footer-2">
+                    <h1>Teams</h1>
+                </div>
+
+                <div class="footer2-list">
+
+                    <ul class="footer2-ul">
+                
+                      <li><a href="#">Sales</a></li>
+
+                      <li><a href="#">Marketing</a></li>
+     
+                      <li><a href="#">Customer Success</a></li>
+     
+                      <li><a href="#">Recruiting</a></li>
+                      
+                      <li><a href="#">Information Technology</a></li>
+                   
+                      <li><a href="#">Revenue Operations</a></li>
+     
+                    </ul>
+     
+                 </div>
+                
+            </div>
+
+
+
+            <div class="footer-wrap">
+
+                <div class="footer-3">
+                    <h1>Industries</h1>
+                </div>
+                
+                <div class="footer3-list">
+
+                    <ul class="footer3-ul">
+                
+                      <li><a href="#">Technology</a></li>
+
+                      <li><a href="#">Financial Services</a></li>
+     
+                      <li><a href="#">Professional Services</a></li>
+     
+                      <li><a href="#">Education</a></li>
+     
+                    </ul>
+     
+                 </div>
+
+            </div>
+            
+            <div class="footer-wrap">
+
+                <div class="footer-4">
+                    <h1>Company</h1>
+                </div>
+
+                <div class="footer4-list">
+
+                    <ul class="footer4-ul">
+                
+                      <li><a href="#">Customer</a></li>
+
+                      <li><a href="#">About Us</a></li>
+     
+                      <li><a href="#">Leadership</a></li>
+     
+                      <li><a href="#">Career</a><button>We're hiring</button></li>
+                      
+                      <li><a href="#">Newsroom</a></li>
+                   
+                    </ul>
+     
+                 </div>
+
+            </div>
+
+            <div class="footer-wrap">
+
+                <div class="footer-5">
+                    <h1>Resources</h1>
+                </div>
+
+                <div class="footer5-list">
+
+                    <ul class="footer5-ul">
+                
+                      <li><a href="#">Blog</a></li>
+
+                      <li><a href="#">Resource Center</a></li>
+     
+                      <li><a href="#">Timely Community</a></li>
+     
+                      <li><a href="#">Compare</a></li>
+                      
+                      <li><a href="#">Become a Partner</a></li>
+
+                      <li><a href="#">Developer Tools</a></li>
+                   
+                    </ul>
+     
+                 </div>
+
+            </div>
+
+            <div class="footer-wrap">
+
+                <div class="footer-6">
+                    <h1>Downloads</h1>
+                </div>
+
+                <div class="footer6-list">
+
+                    <ul class="footer6-ul">
+                
+                      <li><a href="#">Timely for iOS</a></li>
+
+                      <li><a href="#">Timely for Andriod</a></li>
+     
+                      <li><a href="#">Chrome Extension</a></li>
+     
+                      <li><a href="#">Firefox Extension</a></li>
+                      
+                      <li><a href="#">Edge Extension</a></li>
+                   
+                    </ul>
+     
+                 </div>
+
+            </div>
+
+            <div class="footer-wrap">
+
+                <div class="footer-7">
+                    <h1>Connect</h1>
+                </div>
+
+                <div class="footer7-list">
+
+                    <ul class="footer7-ul">
+                
+                      <li><a href="#">Sign up for free</a></li>
+
+                      <li><a href="#">Tal with sales</a></li>
+     
+                      <li><a href="#">Help Center</a></li>
+                      
+                      <li><a href="#">Contact us</a></li>
+                   
+                    </ul>
+     
+                 </div>
+
+            </div>
+            
+            
+            <div class="footer-wrap">
+
+                <!-- horizontal rule -->
+                <hr> 
+
+                <div class="footer8-list">
+
+                    <nav class="footer-social">
+
+                    <a href="#">
+                    <img class="insta-icon" src="./Images/instagram.png" width="24" height="24">
+                    </a>
+            
+                    <a href="#">
+                    <img class="fb-icon" src="./Images/facebook.png" width="24" height="24">
+                    </a>
+    
+                    <a href="#">
+                    <img class="twitter-icon" src="./Images/twitter.png" width="24" height="24">
+                    </a>
+            
+                    <a href="#">
+                    <img class="yt-icon" src="./Images/youtube.png" width="24" height="24">
+                    </a>
+
+                    <a href="#">
+                    <img class="link-icon" src="./Images/linkedin.png" width="24" height="24">
+                    </a>
+        
+                    </nav>
+
+                </div>   
+
+            </div>
+
+            
+            <div class="footer-wrap">
+
+                <div class="footer9-list">
+
+                    <nav class="footer-links">
+
+                    <a href="#"> Legal </a>
+            
+                    <a href="#"> Status </a>
+    
+                    <a href="#"> Cookie Settings </a>
+            
+                    <a href="#"> Your Privacy Choices</a>
+        
+                    </nav>
+                    
+                </div>   
+            
+            </div>
+
+            <div class="footer-wrap">
+
+                <div class="footer10-list">
+
+                <small class="sm-english1">
+                <img src="./Images/world-icon.png" height="15" width="15">
+                <select>
+                    <option>English</option>
+                    <option>French</option>
+                    <option>Dutch</option>
+                    <option>Igbo</option>
+                    <option>German</option>
+                    <option>Spanish</option>
+                    <option>Twi</option>
+                </select>
+                </small>    
+                
+                
+                <p>Copyright Timely 2024 
+
+                <a href="#">I accept the Timely's Legal Terms</a>
+                <input class="foot-checkbox" type="checkbox" name="EULA">
+                </p>
+
+                </div>   
+            
+            </div>
+
+        </div>    
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>      -->
+</body>
+</html>

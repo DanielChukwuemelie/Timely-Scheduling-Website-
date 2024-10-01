@@ -1,0 +1,128 @@
+.container-fluid{
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-color: white;
+    padding-top: 60px;
+    transition: width 0.1s ease;
+  }
+
+  .logo{
+    color: #ff7257;
+    font-size: 35px;
+    font-family: Cambria;
+    font-weight: bolder;
+    cursor: pointer;
+  }  
+
+  .container-fluid .invite:hover{
+    color: #ff7257;
+    background-color: whitesmoke;
+  }
+
+  .sidebar:hover {
+    width: 250px;
+  }
+
+  .sidebar-item {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+  }
+
+  .sidebar-item:hover {
+    background-color: white;
+  }
+
+  .sidebar-item-text {
+    display: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .sidebar-item:hover .sidebar-item-text {
+    display: block;
+    opacity: 1;
+  } 
+
+  .sidebar-item:hover .sidebar2{
+    display: none;
+  } 
+
+  .sidebar-item:hover .sidebar3{
+    display: none;
+  } 
+
+  .sidebar-item:hover .sidebar4{
+    display: none;
+  } 
+
+  .sidebar-item:hover .sidebar5{
+    display: none;
+  } 
+
+  .sidebar-item:hover .sidebar6{
+    display: none;
+  } 
+
+  .sidebar-item:hover .sidebar7{
+    display: none;
+  } 
+
+  .container-fluid .create{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .create:hover{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .event{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .event:hover{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .schedule{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .schedule:hover{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .contacts{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .contacts:hover{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .workflow{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .workflow:hover{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .routing{
+    background-color: #ff7257;
+  }
+
+  .container-fluid .routing:hover{
+    background-color: #ff7257;
+  }
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
